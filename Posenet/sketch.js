@@ -18,7 +18,7 @@ function preload(){
                
 
 function setup() {
-  createCanvas(840, 680, WEBGL);
+  createCanvas(640, 480);
   video = createCapture(VIDEO);
   video.hide();
   poseNet = ml5.poseNet(video, modelLoaded);
